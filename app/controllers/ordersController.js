@@ -13,7 +13,7 @@ var Order = require('../models/order');
 router.get('/', function (req, res) {
 
     Order.find({}, function (err, orders) {
-        if (err) return res.status(500).send("There was a problem finding the users.");
+        if (err) return res.status(500).send("There was a problem finding orders.");
         res.status(200).send(orders);
     });
 
