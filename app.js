@@ -4,6 +4,6 @@ var app = express();
 var db = require('./app/dbConfig/db');
 
 var OrdersController = require('./app/controllers/ordersController');
-app.use('/orders', OrdersController);
+app.use('/', OrdersController);
 
 module.exports = app;
