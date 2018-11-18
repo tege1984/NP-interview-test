@@ -1,6 +1,6 @@
 # TestAssignment
 
-To install dependencies <b>npm install</b>
+To install dependencies run <b>npm install</b>
 
 To run dev environment <b>npm run dev</b>
 
